@@ -15,6 +15,7 @@ answer = STDIN.gets.to_i
 
 
 Forecast.new(kod_goroda[answer]).city_name
+
 Forecast.new(kod_goroda[answer]).get_weather
 
 
